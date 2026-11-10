@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "LoyaltyPass",
+    "slug": "loyaltypass-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.loyaltypass.mobile",
+      "infoPlist": {
+        "NSCameraUsageDescription": "LoyaltyPass requires camera access to scan customer loyalty QR codes."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.loyaltypass.mobile",
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow LoyaltyPass to access your camera to scan customer loyalty QR codes."
+        }
+      ]
+    ],
+    "scheme": "loyaltypass"
+  }
+}

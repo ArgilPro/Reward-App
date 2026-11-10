@@ -1,0 +1,10 @@
+{
+  "name": "LoyaltyPass Mobile",
+  "description": "Production-ready mobile customer loyalty app for iOS and Android with Supabase authentication, real-time points transactions, and QR code scanning.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
